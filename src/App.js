@@ -1,6 +1,4 @@
-export default App() {
-
-}
+export default App() {}
 
 function Logo(){}
 
