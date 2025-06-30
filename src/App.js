@@ -16,4 +16,8 @@ function PackingList(){
     </div>
 }
 
-function Stats(){}
+function Stats(){
+    return <footer>
+       💼 you have X item on your list, and you already packed X (X%)
+    </footer>
+}
