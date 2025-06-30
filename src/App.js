@@ -18,6 +18,8 @@ function PackingList(){
 
 function Stats(){
     return <footer>
-       💼 you have X item on your list, and you already packed X (X%)
+       <em>
+            💼 you have X item on your list, and you already packed X (X%)
+        </em>
     </footer>
 }
