@@ -23,15 +23,25 @@ function Form(){
 }
 
 function PackingList(){
-    return <div className="list">
-        {initialItems.map((item) => (
-            <Item item = {item} />
-        ))}
-    </div>
+    return (
+        <div className="list">
+        <ul>
+            {initialItems.map((item) => (
+                <Item item={item} />
+            ))}
+       </ul>
+       </div>
+    )
 }
 
 function Item ({ item }) {
-    return <li>{item.description}</li>
+    return (
+        <li> 
+            <span>
+                {item.quantity} {item.description}
+            </span>
+        </li>
+    )
 }
 
 function Stats(){
